@@ -448,3 +448,198 @@ header .box-search input[type="text"]:focus, select:focus, button:focus {
 }
 
 .content .sub-info-bot button:hover {background: #656565 none repeat scroll 0 0;}
+
+.content .load-more {
+    display: table;
+    margin:  0 auto;
+    text-align:  center;
+    background:  #fa6839;
+    padding:  10px 20px;
+    border-radius:  25px;
+    text-transform:  uppercase;
+}
+
+.content .load-more a {
+    color:  #fff;
+    text-decoration: none; */
+    padding:;
+}
+
+.content .load-more:hover {
+    background: #656565 none repeat scroll 0 0;
+}
+
+.content .team-area .team-member {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    transition: .3s;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.content .team-area p.name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 33px;
+    margin-bottom:  10px;
+}
+
+.content .team-area p.owners {
+    color: rgb(95, 94, 94);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.content .team-area .contact-info a i {
+    background: #0063d1;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    margin:  0 5px;
+}
+
+.content .team-area .contact-info a i:hover {
+    background: #656565 none repeat scroll 0 0;
+}
+
+.content .team-area .team-member:hover {
+    box-shadow: 0px 3px 20px #0063d1;
+}
+
+.content-footer {
+  position: relative;
+  border-bottom: 2px solid #09c;
+}
+
+footer {
+  background: #282828;
+  padding-top: 20px;
+}
+
+footer .title-widget h6 {
+    color: #fff;
+    border-bottom: 3px solid #000;
+    margin-bottom: 0;
+}
+
+footer .title-widget i {
+    background: #0063d1;
+    padding: 10px;
+    margin-bottom: -3px;
+    border-bottom: #0063d1;
+}
+
+footer .title-widget {
+    position: relative;
+}
+
+footer .title-widget span {
+    border-bottom: 3px solid #0063d1;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    left: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-transform:  uppercase;
+    font-size: 18px;
+}
+
+footer .content-widget {
+  margin: 15px 0;
+  line-height: 24px;
+}
+
+footer .widget-badget img {
+  width: 22px;
+  margin-right: 5px;
+}
+
+footer .content-widget a.widget-badget {
+  border: 1px solid #ededed;
+  /*! padding: 5px; */
+}
+
+footer .content-widget strong {
+  margin-right: 10px;
+  color: #bbb;
+}
+
+footer .content-widget p {
+  color: #ccc;
+}
+
+footer .content-widget input[type="text"] {
+  background: none;
+  border: 1px solid #ededed;
+  color: #fff;
+  padding: 5px;
+  min-width: 70%;
+  border-right: none;
+  margin-bottom: 10px;
+}
+
+footer .content-widget input[type="submit"] {
+  background: 0;
+  border: 1px solid #ededed;
+  padding: 5px;
+  color: #fff;
+  min-width: 30%;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+footer .content-widget a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+footer .bot-footer {
+  text-align: center;
+  line-height: 30px;
+}
+
+footer .content-widget a:before {
+    content: "\f101";
+    font-size: 13px;
+    color: #0063d1;
+    position: absolute;
+    left: 15px;
+    font-family: FontAwesome;
+}
+
+footer .content-widget li p span i {
+    color: #0063d1;
+    margin-right: 5px;
+    font-size: 18px;
+    width: 30px;
+    height:  40px;
+}
+
+footer .content-widget li p span {
+    margin-right: 10px;
+}
+
+footer .content-widget a:hover {
+    color: #fff;
+}
+
+.content .team-area {
+    background:  #ededed;
+    padding:  10px;
+}
+
+.content .filter-area {
+    background:  #ededed;
+    padding:  10px 0;
+}
+
+.content .detail-temp:hover .detail-post input:hover {
+    background: #656565 none repeat scroll 0 0;
+}
